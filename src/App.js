@@ -6,7 +6,9 @@ import Content from "./components/Content";
 function App() {
   return (
     <div>
-      <NavbarComponent />
+      <div>
+        <NavbarComponent />
+      </div>
       <div class="relative min-h-screen flex">
         <SidebarComponents />
         <div class="p-10">
